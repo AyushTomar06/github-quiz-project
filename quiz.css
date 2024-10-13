@@ -1,0 +1,70 @@
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(187, 138, 180);
+}
+/* .game{
+    /* display: none; */
+/* } */ */
+.content{
+    padding: 40px;
+    
+}
+.opt{
+   margin-bottom: 20px;
+}
+
+
+.container{
+  
+    width: 800px;
+    height: 500px;
+     
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.submit{
+    font-family: "Poppins", sans-serif;
+    /* text-align: center;
+    background-color: blueviolet;
+    /* width: ; */
+    background-color: blueviolet;
+    border: none;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+
+    bottom: 0;
+    cursor: pointer;
+    
+   
+    
+}
+.result{
+    display: none;
+    text-align: center;
+    padding: 50px ;
+}
+.correct{
+    color: rgb(133, 230, 133);
+}
+.wrong{
+    color: red;
+}
+.play{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.answers{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
